@@ -26,7 +26,7 @@ class Cart(Ownable):
             item.owner = self.owner
         self.items.clear()
             
-        # requisitos
+        # requisitoss
         #   - Contenido del carrito（Cart#items）El monto de la compra de todos los artículos del artículo se transferirá de la billetera del propietario del carrito a la billetera del propietario del artículo.
         #   - Contenido del carrito（Cart#items）La propiedad de todos los artículos del carrito se transfiere al propietario del carrito.
         #   - Contenido del carrito（Cart#items）estar vacío.
