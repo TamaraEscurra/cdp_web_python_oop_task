@@ -1,4 +1,5 @@
-class Wallet:
+from ownable import Ownable
+class Wallet(Ownable):
 
     def __init__(self, owner):
         self.set_owner(owner)

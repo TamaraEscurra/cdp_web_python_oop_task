@@ -1,4 +1,5 @@
-class Item:
+from ownable import Ownable
+class Item(Ownable):
     instances = []
 
     def __init__(self, name, price, owner=None):
